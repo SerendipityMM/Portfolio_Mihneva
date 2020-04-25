@@ -1,0 +1,25 @@
+.list-group {
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;  
+    padding-top:2%;
+    margin-bottom:10%;
+}
+
+.mySlides{
+    margin-left: 20%;
+    
+}
+
+
+.container {
+    margin-top:30px;
+}
+
+.navbar {
+    margin-bottom:5%;
+}
+
+h2 {
+    color:white
+}

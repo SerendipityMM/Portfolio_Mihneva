@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+  }
+ 
+.navbar-nav {margin-left:50%;}
+
+
+#introText {
+    margin-top: 5%;
+    color:white
+    
+}
+
+.containerIndex {
+    margin-top:12%;
+    margin-left:15%;
+    font-size: 20px;
+    
+}
+
+.btn {
+    margin-left:80%;
+}
+
+
+
+#resId {
+    margin-left:10%;
+}
+
+#env {
+    margin-right:10%;
+    margin-top:5%;
+}
+
+#logo {
+    width:50px;
+    margin-left:15%;
+}
+
+#myBtn {
+    background-color:#B34B7A;
+    color:white;
+    height:60px;
+    margin-top: 20%;
+    margin-left:1%;
+
+}
+

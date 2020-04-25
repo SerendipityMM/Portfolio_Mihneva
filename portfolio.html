@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--External CSS file-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/pstyle.css">
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <!--Font Awesome -->
+      <script src="https://kit.fontawesome.com/bde6e95084.js" crossorigin="anonymous"></script>
+
+
+    <title>Milena Mihneva</title>
+    <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16" target="_blank">
+
+    <style>
+      
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      
+      /* Modal Content */
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+      }
+      
+      /* The Close Button */
+      .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+
+/*MIDDLE */
+  
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color:#B34B7A;
+    padding: 2px 16px;
+    width:100%;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  </style>
+  </head>
+  <body>
+ 
+
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg  navbar-light bg-light">
+      <img id="logo" src="images/favicon.png" type="image/gif"  >
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html"> About <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Portfolio</a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+          <a class="nav-item nav-link"href="https://www.linkedin.com/in/milena-mihneva-a03667181/"target="_blank"><i class="fab fa-linkedin black fa-2x"></i></a>
+          <a class="nav-item nav-link"href="https://github.com/SerendipityMM" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+          <a class="nav-item nav-link"href="https://www.facebook.com/mmihneva" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+       
+        </div>
+      </div>
+    </nav>
+
+
+<!--Slideshow-->
+    <h2 style="text-align:center">Slideshow Gallery</h2>
+
+    <div class="container">
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="images/vibestreet.png" style="width:80%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="images/rsz_pro2.png" style="width:80%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="images/rsz_dashboard.png" style="width:80%">
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="images/rsz_java.png" style="width:80%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="images/rsz_workday.png" style="width:80%">
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="images/rsz_pass.png" style="width:80%">
+      </div>
+        
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+    
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="images/vibestreet.png" style="width:100%" onclick="currentSlide(1)" alt="Vibestreet">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/rsz_pro2.png" style="width:100%" onclick="currentSlide(2)" alt="Neighbuddy">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/rsz_dashboard.png" style="width:100%" onclick="currentSlide(3)" alt="Weather Dashboard">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/rsz_java.png" style="width:100%" onclick="currentSlide(4)" alt="Java Code Quiz">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/rsz_workday.png" style="width:100%" onclick="currentSlide(5)" alt="Work Scheduler">
+        </div>    
+        <div class="column">
+          <img class="demo cursor" src="images/rsz_pass.png" style="width:100%" onclick="currentSlide(6)" alt="Password-Generator">
+        </div>
+      </div>
+    </div> <!-- end of container-->
+    
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+        
+
+  <!-- List -->
+
+  <div class="list-group">
+    <!-- Reverse Engeneering-->
+
+
+
+    <a id="title-list" class="list-group-item list-group-item flex-column align-items-start ">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Portfolio/Projects</h5>
+        </div>
+        <small>............................</small>
+      </a>
+    
+
+      
+
+
+
+
+   <a href="https://kbell28k.github.io/Project-One//events" class="list-group-item list-group-item-action flex-column align-items-start ">
+     <div class="d-flex w-100 justify-content-between">
+       <h5 class="mb-1">Vibestreet</h5>
+   
+     </div>
+     <small>Event Application</small>
+     
+   </a>
+
+   <a href="https://young-sands-32420.herokuapp.com/" class="list-group-item list-group-item-action flex-column align-items-start ">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Neighbuddy</h5>
+    </div>
+    <small>Social Network Application</small>
+  </a>
+
+   <a href="https://serendipitymm.github.io/Weather-Dashboard/" class="list-group-item list-group-item-action flex-column align-items-start">
+     <div class="d-flex w-100 justify-content-between">
+       <h5 class="mb-1">Weather Dashboard</h5>
+     </div>
+     <small class="text-muted">Application for every day weather notes.</small>
+   </a>
+   <a href="https://github.com/SerendipityMM/Reverse-Engineering-Authentication" class="list-group-item list-group-item-action flex-column align-items-start">
+     <div class="d-flex w-100 justify-content-between">
+       <h5 class="mb-1">Java Code Quiz</h5>
+     </div>
+     <small class="text-muted">Quiz for beginners</small>
+   </a>
+
+   <a href="https://serendipitymm.github.io/Work-Day-Scheduler/" class="list-group-item list-group-item-action flex-column align-items-start ">
+     <div class="d-flex w-100 justify-content-between">
+       <h5 class="mb-1">Work Day Scheduler</h5>
+     </div>
+     <small class="text-muted">Simple calendar application</small>
+   </a>
+   <a href="https://serendipitymm.github.io/Password-Generator/" class="list-group-item list-group-item-action flex-column align-items-start ">
+     <div class="d-flex w-100 justify-content-between">
+       <h5 class="mb-1">Password Generator</h5>
+     </div>
+     <small class="text-muted">Javascript App</small>
+   </a>
+ </div>
+
+  <!-- Card Body end div-->
+ </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
